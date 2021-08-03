@@ -1,7 +1,15 @@
 @import "./buttons.css";
+@import "./camera.css";
 body {
     background-color: #26B4BC;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    /* background-color: olivedrab; */ 
 }
 
 .wrapper {

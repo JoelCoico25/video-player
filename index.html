@@ -10,6 +10,9 @@
     <title>Reproductor de Video</title>
 </head>
 <body>
+    <div class="title">
+        <h1>Video Player</h1>
+    </div>
     <div class="wrapper">
         <div class="player">
             <video id="video" poster='./images/trailer_Moment.jpg' src="https://media.w3.org/2010/05/sintel/trailer.mp4" width="900px" height="500px"></video>  <!-- poster="./images/poster.jpg" -->
@@ -28,5 +31,12 @@
         </div>
     </div>
     <script src="./js/index.js"></script>
+    <div class="camera" method="POST">
+        <!-- Camara Frontal -->
+        <input type="file" id="fotoCamaraFrontal" capture="getUserMedia" accept="image/*"/>
+        <!-- Camara Trasera -->
+        <input type="file" id="fotoCamaraTrasera" capture="getEnvironmentMedia" accept="image/*"/>
+        <button type="submit" class="submitImageButton" id="enviarImagen" aria-label="Enviar">Enviar</button>
+    </div>
 </body>
 </html>
