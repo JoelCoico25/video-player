@@ -1,3 +1,11 @@
 .camera {
     margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+#camera {
+    /* border: 2px solid blue; */
+    align-items: center;
+    display: flex;
+    padding: auto;
 }
